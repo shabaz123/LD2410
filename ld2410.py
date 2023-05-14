@@ -1,5 +1,17 @@
 # HLK-LD2410 Tool
 # rev 1 - shabaz - May 2023
+# Example data report in Basic mode:
+# hex: f4 f3 f2 f1 0d 00 02 aa 03 4f 00 64 4c 00 64 32 00 55 00 f8 f7 f6 f5
+# bytes 0-3 are the header, always 0xf4, 0xf3, 0xf2, 0xf1
+# bytes 4-5 are the frame length, always 0x0d, 0x00 for Basic mode
+# byte 6 is the report type, always 0x02 for Basic mode, or 0x01 for Engineering mode
+# byte 7 is the report head, always 0xaa
+# byte 8 is the state, 0x00 = no target, 0x01 = moving target, 0x02 = stationary target, 0x03 = combined target
+# bytes 9-10 are the moving target distance in cm, little endian
+# byte 11 is the moving target energy
+# bytes 12-13 are the stationary target distance in cm, little endian
+# byte 14 is the stationary target energy
+# bytes 15-16 are the detection distance in cm, little endian
 
 from machine import Pin, UART
 import utime
