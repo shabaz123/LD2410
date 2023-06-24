@@ -1,5 +1,6 @@
 # HLK-LD2410 Tool
 # rev 1 - shabaz - May 2023
+# Note: set the portname variable to the correct COM port before running this code
 # Example data report in Basic mode:
 # hex: f4 f3 f2 f1 0d 00 02 aa 03 4f 00 64 4c 00 64 32 00 55 00 f8 f7 f6 f5
 # bytes 0-3 are the header, always 0xf4, 0xf3, 0xf2, 0xf1
