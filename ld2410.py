@@ -1,4 +1,4 @@
-# HLK-LD2410 Tool
+# HLK-LD2410 (Microwave-based human/object presence sensor) Tool
 # rev 1 - shabaz - May 2023
 # Example data report in Basic mode:
 # hex: f4 f3 f2 f1 0d 00 02 aa 03 4f 00 64 4c 00 64 32 00 55 00 f8 f7 f6 f5
