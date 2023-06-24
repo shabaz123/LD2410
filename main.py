@@ -1,4 +1,4 @@
-# HLK-LD2410 Tool
+# HLK-LD2410 (Microwave-based human/object presence sensor) Tool
 # rev 1 - shabaz - May 2023
 # Note: set the portname variable to the correct COM port before running this code
 # Example data report in Basic mode:
